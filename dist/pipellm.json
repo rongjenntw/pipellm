@@ -1,0 +1,13 @@
+{
+    "llm_url": "http://localhost:11434/api/generate",
+    "llm_model": "phi3",
+    "pipes": 
+        {
+            "default": {"context": "You are a helpful assistant."},
+            "htmltotext": {"prompt": "convert html in the context to human readable text"},
+            "translate": {"prompt": "translate the text in the context to Chinese Traditional"},
+            "summary": {"prompt": "summarize the text in the context"},
+            "5qa": {"prompt": "generate 5 key questions and answers based on the knowledge in the context"},
+            "quiz": {"prompt": "generate some quiz questions based on the knowledge in the context"}
+        }
+}
