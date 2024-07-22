@@ -1,6 +1,6 @@
-import requests, json, sys
+import requests, json, sys, os
 
-with open('pipellm.json', 'r') as file:
+with open(os.getenv('PIPELLM_CONFIG') or 'pipellm.json', 'r') as file:
     config = json.load(file)
 
 def generate(prompt, context, model=config.get('llm_model')):
