@@ -14,3 +14,8 @@ C:\\> cat example.txt | pipellm summary | pipellm 5facts
 
 # Download
 <a href='dist/pipellm.exe'>windows pipellm.exe</a>, <a href='dist/pipellm.json'> pipellm.json</a>
+
+# Compile
+to compile to executable in your machine:
+```
+pyinstaller --onefile pipellm.py
