@@ -7,8 +7,10 @@
         "htmltotext": {"prompt": "convert html in the context to human readable text"},
         "translate": {"prompt": "translate the text in the context to Chinese Traditional"},
         "summary": {"prompt": "summarize the text in the context"},
+        "cot": {"prompt": "think step by step then answer the question or anlaize the text in the context"},
         "5facts": {"prompt": "generate 5 facts based on the knowledge in the context"},
         "5qa": {"prompt": "generate 5 key questions and answers based on the knowledge in the context"},
-        "quiz": {"prompt": "generate some quiz questions based on the knowledge in the context"}
+        "quiz": {"prompt": "generate some quiz questions based on the knowledge in the context"},
+        "verify": {"prompt": "verify the text in the context and correct the errors or mistakes"}
     }
 }
