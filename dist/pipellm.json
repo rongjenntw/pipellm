@@ -8,6 +8,7 @@
         "translate": {"prompt": "translate the text in the context to Chinese Traditional"},
         "summary": {"prompt": "summarize the text in the context"},
         "cot": {"prompt": "think step by step then answer the question or anlaize the text in the context"},
+        "analysis": {"prompt": "conduct analysis for the provided context and provide the reasoning for your analysis"},
         "5facts": {"prompt": "generate 5 facts based on the knowledge in the context"},
         "5qa": {"prompt": "generate 5 key questions and answers based on the knowledge in the context"},
         "quiz": {"prompt": "generate some quiz questions based on the knowledge in the context"},
