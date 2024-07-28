@@ -5,7 +5,7 @@ pipe the output of an LLM to another LLM as input. This is a way to chain togeth
 C:\\> cat example.txt | pipellm summary | pipellm 5facts
 
 # Configure
-- this requires ollama installed 
+- this requires ollama (download and install from ollama.com) 
 - modify pipellm.json
   1. "llm_url": your ollama host url
   2. "llm_model": your ollama model
@@ -13,7 +13,7 @@ C:\\> cat example.txt | pipellm summary | pipellm 5facts
 - set PIPELLM_CONFIG environment variable to pipellm.json path in your machine
 
 # Download
-<a href='dist/pipellm.exe'>windows pipellm.exe</a>, <a href='dist/pipellm.json'> pipellm.json</a>
+<a href='dist/pipellm.exe'>windows pipellm.exe</a>, <a href='pipellm.json'> pipellm.json</a>
 
 # Compile
 to compile to executable in your machine:

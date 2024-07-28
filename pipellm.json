@@ -1,11 +1,13 @@
 {
     "llm_url": "http://localhost:11434/api/generate",
-    "llm_model": "phi3",
+    "llm_model": "llama3.1",
     "pipes": 
     {
         "default": {"context": "You are a helpful assistant."},
         "htmltotext": {"prompt": "convert html in the context to human readable text"},
-        "translate": {"prompt": "translate the text in the context to Chinese Traditional"},
+        "links": {"prompt": "Extract links in html in the context.  Do not write a script or provide instruction to do it."},
+        "reviewcode": {"prompt": "review the source code in the context, critic the code based on the best coding practice, and find potential issues"},
+        "chinese": {"prompt": "translate the text in the context to Chinese Traditional"},
         "summary": {"prompt": "summarize the text in the context"},
         "cot": {"prompt": "think step by step then answer the question or anlaize the text in the context"},
         "analysis": {"prompt": "conduct analysis for the provided context and provide the reasoning for your analysis"},
